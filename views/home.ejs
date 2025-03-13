@@ -43,13 +43,13 @@
         <button class="btn" onclick="logout()">Logout</button>
     </div>
 
+
     <script>
         alert("You have successfully logged in.");
+
         function logout(){
             localStorage.removeItem("user");
-            setTimeout(() => {
-                window.location.href = "/";
-            }, 1000);
+            window.location.href = "/login";
             alert("You have successfully logged out.");
         }
     </script>
