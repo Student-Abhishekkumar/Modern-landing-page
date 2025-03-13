@@ -8,12 +8,13 @@
 }
 
 body{
-    background-color: white;
+    background-image: radial-gradient(rgb(2, 23, 143),#0015ff,#00d9ff);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    animation: animate 10s radial infinite;
 }
 
 .container{
@@ -25,6 +26,7 @@ body{
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+    filter: drop-shadow(10px 4px 10px #000000);
 }
 
 .container p{
