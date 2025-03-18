@@ -3,7 +3,7 @@
 ## Backend team [ Abhishek , Shahid ]
 
 > [!tip]
-> ENJOY THE CODE 😊
+> ENJOY THE CODE 
 
 ## Landing UI
 
